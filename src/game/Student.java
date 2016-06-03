@@ -1,5 +1,10 @@
 package game;
 
-public class Student {
+import characteristics.Race;
 
+public abstract class Student {
+	private Race race;
+	
+	public Race getRace(){ return race; }
+	
 }
